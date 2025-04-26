@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Container } from 'styled-system/jsx';
+import { Footer, Header, ScrollRestoration } from './components';
 import './index.css';
 
 //TODO: placeholders for now will have to update later
@@ -48,7 +49,10 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={'dark'}>
+                <Header />
+                <ScrollRestoration />
                 <Container>{children}</Container>
+                <Footer />
             </body>
         </html>
     );
