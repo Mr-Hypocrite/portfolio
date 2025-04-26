@@ -1,1 +1,2 @@
-export * from './global-css.panda';
+export * from './globalCss.panda';
+export * from './textStyles.panda';
