@@ -1,1 +1,8 @@
 @layer reset, base, tokens, recipes, utilities;
+
+@layer base {
+    a:hover,
+    .styled-link:hover {
+        color: var(--colors-violet-11);
+    }
+}
