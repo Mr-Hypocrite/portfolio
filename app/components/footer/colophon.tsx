@@ -19,7 +19,7 @@ export const Colophon: FC<ColophonProps> = (props) => {
             </HoverCard.Trigger>
 
             <HoverCard.Positioner>
-                <HoverCard.Content maxW={'md'} p={'8'}>
+                <HoverCard.Content maxW={'lg'} p={'8'}>
                     <HoverCard.Arrow>
                         <HoverCard.ArrowTip />
                     </HoverCard.Arrow>
