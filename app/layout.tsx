@@ -1,7 +1,15 @@
 import type { Metadata } from 'next';
 import { Container } from 'styled-system/jsx';
 import { Footer, Header, ScrollRestoration } from './components';
+import { Inter, Poppins } from 'next/font/google';
 import './index.css';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+const poppins = Poppins({
+    subsets: ['latin'],
+    variable: '--font-poppins',
+    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+});
 
 //TODO: placeholders for now will have to update later
 export const metadata: Metadata = {
@@ -47,7 +55,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
             <body className={'dark'}>
                 <Header />
                 <ScrollRestoration />

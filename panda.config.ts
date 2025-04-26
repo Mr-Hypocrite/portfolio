@@ -30,6 +30,10 @@ export default defineConfig({
     theme: {
         extend: {
             tokens: {
+                fonts: {
+                    inter: { value: 'var(--font-inter)' },
+                    poppins: { value: 'var(--font-poppins)' }
+                },
                 sizes: {
                     'breakpoint-3xl': {
                         value: '1920px'
