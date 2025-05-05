@@ -26,7 +26,7 @@ export const Header: FC<HeaderProps> = () => {
             backgroundColor={hasScrolled ? 'white.a1' : 'unset'}
             backdropFilter={hasScrolled ? 'auto' : 'unset'}
             backdropBlur={hasScrolled ? 'sm' : 'unset'}
-            gap={{ base: '0', md: '8' }}
+            gap={{ base: '0', md: '4' }}
         >
             {headerLinks.map(({ href, title }, index) => (
                 <Link href={href} key={`${title}_${index}`}>
