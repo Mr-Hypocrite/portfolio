@@ -42,7 +42,7 @@ export const Colophon: FC<ColophonProps> = (props) => {
                                 <Text>vercel for ci / cd</Text>
                             </Flex>
                         </Flex>
-                        <Text flex={1}>Poppins for headers and Inter for body text.</Text>
+                        <Text flex={1}>poppins for headers and inter for body text.</Text>
                     </Flex>
                 </HoverCard.Content>
             </HoverCard.Positioner>
