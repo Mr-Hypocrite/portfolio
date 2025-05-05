@@ -1,5 +1,5 @@
 import { defineConfig } from '@pandacss/dev';
-import { globalCss } from '@app/utilities';
+import { globalCss, textStyles } from '@app/utilities';
 import { createPreset } from '@park-ui/panda-preset';
 import violet from '@park-ui/panda-preset/colors/violet';
 import mauve from '@park-ui/panda-preset/colors/mauve';
@@ -16,19 +16,12 @@ export default defineConfig({
     // Files to exclude
     exclude: [],
 
-    patterns: {
-        extend: {
-            container: {
-                defaultValues: {
-                    maxW: 'breakpoint-3xl'
-                }
-            }
-        }
-    },
+    patterns: {},
 
     // Useful for theme customization
     theme: {
         extend: {
+            textStyles,
             tokens: {
                 fonts: {
                     inter: { value: 'var(--font-inter)' },
