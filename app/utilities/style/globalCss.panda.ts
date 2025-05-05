@@ -7,6 +7,7 @@ export const globalCss = defineGlobalStyles({
     body: {
         backgroundColor: 'var(--colors-bg-canvas)',
         color: 'var(--colors-fg-default)',
-        fontFamily: 'inter'
+        fontFamily: 'inter',
+        fontWeight: 'light'
     }
 });
