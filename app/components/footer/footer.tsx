@@ -1,4 +1,4 @@
-import { CircleSmallIcon, GithubIcon, LinkedinIcon, MailIcon } from 'lucide-react';
+import { CircleSmallIcon, FileUserIcon, GithubIcon, LinkedinIcon, MailIcon } from 'lucide-react';
 import Link from 'next/link';
 import { FC } from 'react';
 import { Container, Flex } from 'styled-system/jsx';
@@ -7,7 +7,7 @@ import { Colophon } from './colophon';
 
 export const Footer: FC = () => {
     return (
-        <Container>
+        <Container mt={'32'}>
             <Flex
                 direction={{ base: 'column-reverse', sm: 'row' }}
                 w={'full'}
@@ -15,7 +15,7 @@ export const Footer: FC = () => {
                 gap={{ base: '8' }}
                 py={'8'}
                 minH={{ base: '', md: '2xs' }}
-                alignItems={{ base: 'center', sm: 'start' }}
+                alignItems={{ base: 'start' }}
             >
                 <Flex alignItems={'center'} gap={'2'}>
                     <Text>&copy; 2025 jatin</Text>
@@ -35,7 +35,9 @@ const FooterLinks: FC = () => {
     return (
         <Flex direction={{ base: 'row' }} wrap={'wrap'} gap={{ base: '8' }}>
             <Flex direction={'column'} gap={'4'}>
-                <Text size={{ base: 'lg' }}>elsewhere</Text>
+                <Text size={{ base: 'lg' }} fontWeight={'medium'}>
+                    elsewhere
+                </Text>
                 <Flex direction={'column'} gap={'1'}>
                     <Link href="https://github.com/Mr-Hypocrite" target="_blank">
                         <Flex alignItems={'center'} gap={'1'}>
@@ -52,12 +54,20 @@ const FooterLinks: FC = () => {
                 </Flex>
             </Flex>
             <Flex direction={'column'} gap={'4'}>
-                <Text size={{ base: 'lg' }}>contact</Text>
+                <Text size={{ base: 'lg' }} fontWeight={'medium'}>
+                    contact
+                </Text>
                 <Flex direction={'column'} gap={'1'}>
                     <Link href="mailto:ym.jatin@gmail.com">
                         <Flex alignItems={'center'} gap={'1'}>
                             <MailIcon size={20} />
                             <Text>ym.jatin@gmail.com</Text>
+                        </Flex>
+                    </Link>
+                    <Link href="mailto:ym.jatin@gmail.com">
+                        <Flex alignItems={'center'} gap={'1'}>
+                            <FileUserIcon size={20} />
+                            <Text>cv</Text>
                         </Flex>
                     </Link>
                 </Flex>
