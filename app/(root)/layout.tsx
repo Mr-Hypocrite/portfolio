@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Container } from 'styled-system/jsx';
-import { Footer, Header, ScrollRestoration } from './components';
+import { Footer, Header, ScrollRestoration } from '@app/components';
 import { Inter, Poppins } from 'next/font/google';
 import './index.css';
 
