@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
             use: ['@svgr/webpack']
         });
         return config;
+    },
+    images: {
+        remotePatterns: [new URL('https://cdn.sanity.io/**')]
     }
 };
 
