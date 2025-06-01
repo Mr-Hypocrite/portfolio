@@ -16,7 +16,15 @@ export default defineConfig({
     // Files to exclude
     exclude: [],
 
-    patterns: {},
+    patterns: {
+        extend: {
+            container: {
+                defaultValues: {
+                    maxW: '6xl'
+                }
+            }
+        }
+    },
 
     // Useful for theme customization
     theme: {
@@ -32,6 +40,7 @@ export default defineConfig({
                         value: '1920px'
                     }
                 }
+            },
             }
         }
     },
