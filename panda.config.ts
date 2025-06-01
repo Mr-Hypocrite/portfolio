@@ -41,6 +41,21 @@ export default defineConfig({
                     }
                 }
             },
+            recipes: {
+                button: {
+                    variants: {
+                        variant: {
+                            solid: {
+                                backgroundColor: 'var(--colors-fg-default)',
+                                color: 'var(--colors-black)',
+                                _hover: {
+                                    backgroundColor: 'var(--colors-black)',
+                                    color: 'var(--colors-fg-default)'
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     },
