@@ -1,5 +1,5 @@
 import { defineConfig } from '@pandacss/dev';
-import { globalCss, textStyles } from '@app/utilities';
+import { globalCss, textStyles } from '@/utilities';
 import { createPreset } from '@park-ui/panda-preset';
 import violet from '@park-ui/panda-preset/colors/violet';
 import mauve from '@park-ui/panda-preset/colors/mauve';
@@ -11,10 +11,19 @@ export default defineConfig({
     globalCss,
 
     // Where to look for your css declarations
-    include: ['./app/**/*.{js,jsx,ts,tsx}', './pages/**/*.{js,jsx,ts,tsx}'],
+    include: ['./app/**/*.{js,jsx,ts,tsx}', './**/*.{js,jsx,ts,tsx}'],
 
     // Files to exclude
-    exclude: [],
+    exclude: [
+        'node_modules',
+        '**/node_modules',
+        '**/styled_system',
+        'styled_system',
+        'sanity',
+        '.next',
+        'dist',
+        'build'
+    ],
 
     patterns: {
         extend: {
