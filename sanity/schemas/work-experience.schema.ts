@@ -28,7 +28,7 @@ export const workExperienceSchema: SchemaTypeDefinition = {
         defineField({
             name: 'endDate',
             title: 'End Date',
-            description: 'Last working Day',
+            description: 'Last working day',
             type: 'date'
         }),
         defineField({
