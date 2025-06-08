@@ -1,4 +1,5 @@
 import { aboutPageSchema } from './about-page.schema';
+import { collaboratorSchema } from './collaborator.schema';
 import { personalDetailsSchema } from './personal-details.schema';
 import { workExperienceSchema } from './work-experience.schema';
 import { projectPageSchema } from './project-page.schema';
@@ -12,4 +13,5 @@ export const schemaTypes = [
     workExperienceSchema,
     projectSchema,
     technologySchema
+    collaboratorSchema
 ];
