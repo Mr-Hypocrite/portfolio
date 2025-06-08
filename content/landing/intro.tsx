@@ -1,4 +1,4 @@
-import { Icon, Section, Text } from '@app/components';
+import { Icon, Section, Text } from '@/components';
 import { ChevronDownIcon } from 'lucide-react';
 import Link from 'next/link';
 import { FC } from 'react';
@@ -6,9 +6,21 @@ import { Flex } from 'styled-system/jsx';
 
 export const Intro: FC = () => {
     return (
-        <Section id="home" flexDir={'column'} textAlign={'center'} position={'relative'}>
+        <Section
+            css={{
+                minH: '100vh',
+                '&': {
+                    minH: '100dvh'
+                }
+            }}
+            id="home"
+            flexDir={'column'}
+            textAlign={'center'}
+            position={'relative'}
+            transform={'translateY(calc(var(--spacing-24) * -1))'}
+        >
             <Text as={'h2'} textStyle={'heading'}>
-                hi. i'm jatin.
+                {`hi. i'm jatin.`}
             </Text>
             <Text as={'h2'} textStyle={'heading'} lineHeight={'none'}>
                 a {`<web />`} developer.
