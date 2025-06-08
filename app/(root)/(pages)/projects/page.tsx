@@ -1,9 +1,12 @@
+import { getProjectPageData } from '@/sanity/getters';
 import { Projects } from './sections';
 
-export default function ProjectsPage() {
+export default async function ProjectsPage() {
+    const projectGroups = await getProjectPageData();
+
     return (
         <>
-            <Projects />
+            <Projects projectGroups={projectGroups} />
         </>
     );
 }
