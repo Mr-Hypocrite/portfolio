@@ -7,13 +7,12 @@ import { Colophon } from './colophon';
 
 export const Footer: FC = () => {
     return (
-        <Container mt={'32'}>
+        <Container mt={{ base: '16', md: '32' }} mb={'8'}>
             <Flex
                 direction={{ base: 'column-reverse', sm: 'row' }}
                 w={'full'}
                 justifyContent={'space-between'}
                 gap={{ base: '8' }}
-                py={'8'}
                 minH={{ base: '', md: '2xs' }}
                 alignItems={{ base: 'start' }}
             >

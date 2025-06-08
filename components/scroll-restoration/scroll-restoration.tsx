@@ -1,6 +1,6 @@
 'use client';
 
-import { useScrollRestoration } from '@app/hooks';
+import { useScrollRestoration } from '@/hooks';
 import { FC } from 'react';
 
 export const ScrollRestoration: FC = () => {
