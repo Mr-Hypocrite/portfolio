@@ -5,9 +5,13 @@ export const globalCss = defineGlobalStyles({
         scrollBehavior: 'smooth'
     },
     body: {
-        backgroundColor: 'var(--colors-bg-canvas)',
+        backgroundColor: 'black',
         color: 'var(--colors-fg-default)',
         fontFamily: 'inter',
-        fontWeight: 'light'
+        fontWeight: 'light',
+        '&::selection': {
+            backgroundColor: 'var(--colors-violet-9)',
+            color: 'white'
+        }
     }
 });
