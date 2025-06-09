@@ -63,7 +63,10 @@ const FooterLinks: FC = () => {
                             <Text>ym.jatin@gmail.com</Text>
                         </Flex>
                     </Link>
-                    <Link href="mailto:ym.jatin@gmail.com">
+                    <Link
+                        target="_blank"
+                        href="https://cdn.sanity.io/files/p5a4gk6p/development/6276fa8f2fc49f63ba41483d60f6c9b696de93f3.pdf"
+                    >
                         <Flex alignItems={'center'} gap={'1'}>
                             <FileUserIcon size={20} />
                             <Text>cv</Text>
