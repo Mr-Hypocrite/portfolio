@@ -15,8 +15,8 @@ export const About: FC = () => {
                     i might have{' '}
                     <Link href="https://www.psychiatry.org/patients-families/adhd/what-is-adhd#:~:text=Attention%2Ddeficit%2Fhyperactivity%20disorder%20(ADHD)%20is%20one%20of,in%20the%20moment%20without%20thought).">
                         <b>adhd</b>
-                    </Link>{' '}
-                    — i’ve never been diagnosed, but if you read this, you’ll probably understand
+                    </Link>
+                    , i’ve never been diagnosed, but if you read this, you’ll probably understand
                     why i say that.
                 </Text>
                 <Text as="p">
@@ -29,15 +29,15 @@ export const About: FC = () => {
                         <b>mit</b>
                     </Link>
                     . i spent way too much time on it, building little games just for fun. it was
-                    the first time i saw something i made come to life on a screen — that hit
+                    the first time i saw something i made come to life on a screen that hit
                     different.
                 </Text>
                 <Text as="p">
-                    someone saw what i was doing and said, _“hey, you should check out{' '}
+                    someone saw what i was doing and said, “hey, you should check out{' '}
                     <Link href="https://unity.com/">
                         <b>unity</b>
                     </Link>
-                    .”_ so i did... and immediately got overwhelmed. the jump from{' '}
+                    .” so i did... and immediately got overwhelmed. the jump from{' '}
                     <Link href="https://scratch.mit.edu/">
                         <b>scratch</b>
                     </Link>{' '}
@@ -53,8 +53,8 @@ export const About: FC = () => {
                     that somehow led me to <b>3d modeling</b> with{' '}
                     <Link href="https://www.blender.org/">
                         <b>blender</b>
-                    </Link>{' '}
-                    — mainly because it was open source and free. but{' '}
+                    </Link>
+                    , mainly because it was open source and free. but{' '}
                     <Link href="https://www.blender.org/">
                         <b>blender</b>
                     </Link>{' '}
@@ -70,11 +70,11 @@ export const About: FC = () => {
                     <Link href="https://www.maxon.net/en/zbrush">
                         <b>zbrush</b>
                     </Link>
-                    . can’t say i mastered any of them — just a lot of poking around, experimenting,
+                    . can’t say i mastered any of them just a lot of poking around, experimenting,
                     and vibing.
                 </Text>
                 <Text as="p">
-                    fast forward to <b>college during covid</b> — i started getting into web
+                    fast forward to <b>college during covid</b> i started getting into web
                     development. mornings were for{' '}
                     <Link href="https://genshin.hoyoverse.com/en/">
                         <b>genshin impact</b>
@@ -85,7 +85,7 @@ export const About: FC = () => {
                         <b>valorant</b>
                     </Link>
                     . eventually, i got a friend hooked on the game, then he got another, and
-                    suddenly i had a <b>crew</b> — not just for{' '}
+                    suddenly i had a <b>crew</b> not just for{' '}
                     <Link href="https://playvalorant.com/en-gb/">
                         <b>valorant</b>
                     </Link>
