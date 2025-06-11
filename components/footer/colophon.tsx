@@ -2,6 +2,7 @@ import FigmaLogo from '@app/assets/logos/figma.svg';
 import GitHubLogo from '@app/assets/logos/github.svg';
 import NextJsLogo from '@app/assets/logos/next-js.svg';
 import VercelLogo from '@app/assets/logos/vercel.svg';
+import SanityLogo from '@app/assets/logos/sanity.svg';
 import { HoverCardRootProps } from '@ark-ui/react';
 import { FC } from 'react';
 import { Flex } from 'styled-system/jsx';
@@ -40,6 +41,10 @@ export const Colophon: FC<ColophonProps> = (props) => {
                             <Flex alignItems={'center'} gap={'2'}>
                                 <VercelLogo width={20} height={20} viewBox="0 0 128 128" />
                                 <Text>vercel for ci / cd</Text>
+                            </Flex>
+                            <Flex alignItems={'center'} gap={'2'}>
+                                <SanityLogo width={20} height={20} viewBox="0 0 128 128" />
+                                <Text>sanity for cms</Text>
                             </Flex>
                         </Flex>
                         <Text flex={1}>poppins for headers and inter for body text.</Text>
