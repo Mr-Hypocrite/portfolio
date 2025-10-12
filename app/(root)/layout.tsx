@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
         description:
             pageSeo.metaDescription ||
             'Jatin is a web developer on a journey to build better web experiences. With over 2 years of hands-on experience, explore projects, skills, and more.',
-        metadataBase: new URL('https://yourdomain.com'), // Update with your actual domain
+        metadataBase: new URL('https://mr-hypocrite.vercel.app'),
         openGraph: {
             title: pageSeo.openGraph?.title || 'Jatin | Web Developer Portfolio',
             description:
