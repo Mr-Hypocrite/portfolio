@@ -65,7 +65,7 @@ const FooterLinks: FC = () => {
                     </Link>
                     <Link
                         target="_blank"
-                        href="https://cdn.sanity.io/files/p5a4gk6p/development/6276fa8f2fc49f63ba41483d60f6c9b696de93f3.pdf"
+                        href="https://cdn.sanity.io/files/p5a4gk6p/development/bde9b991a33cd453e624ff2ecab149387835af98.pdf"
                     >
                         <Flex alignItems={'center'} gap={'1'}>
                             <FileUserIcon size={20} />
